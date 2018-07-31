@@ -4,10 +4,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "npm",
-            "script": "build",
-            "path": "code_mixins/",
-            "problemMatcher": []
+            "label": "Build THIS Module",
+            "type": "shell",
+            "command": "BuildTHISModule",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
